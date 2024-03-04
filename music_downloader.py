@@ -1,6 +1,5 @@
-
 from __future__ import unicode_literals
-import youtube_dl # pip install --upgrade youtube_dl
+import youtube_dl # to install from requirements.txt
 from sys import exit
 
 def main():
@@ -11,7 +10,7 @@ def main():
 
     print("\nYOUTUBE MUSIC DOWNLOADER\n")
     print("Based on youtube_dl library --> https://yt-dl.org/\n")
-    print("(Press CTRL-C to stop download)")
+    print("(Press CTRL-C to stop download)\n")
 
     count = 0
     errors = 0
@@ -38,7 +37,7 @@ def main():
     print("")
     print(f"{count - errors} links successfully downloaded :)")
     print(f"{errors} errors :(")
-    exit() # sys.exit(), stop the script
+    exit() # sys.exit(), exit fromthe script
 
 if __name__ == "__main__":
     main()
