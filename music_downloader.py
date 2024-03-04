@@ -9,10 +9,9 @@ def main():
                                 'preferredcodec': 'm4a',
                                 'preferredquality': '192'}]}
 
-    print("\nYOUTUBE MUSIC DOWNLOADER")
-    print("\nBased on youtube_dl library --> https://yt-dl.org/")
-    print("Code by Edoardo Fornasier")
-    print("\n(Press CTRL-C to stop download)")
+    print("\nYOUTUBE MUSIC DOWNLOADER\n")
+    print("Based on youtube_dl library --> https://yt-dl.org/\n")
+    print("(Press CTRL-C to stop download)")
 
     count = 0
     errors = 0
