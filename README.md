@@ -6,7 +6,6 @@
 
 ### Put your favourite songs links in songs.txt and run the script :)
 
-
 ## FUTURE UPDATES:
  - Add a GUI
  - Read songs from a playlist
