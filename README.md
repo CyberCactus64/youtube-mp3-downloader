@@ -1,10 +1,8 @@
 # Download you favourite songs from youtube! :)
+This script uses the youtube_dl library, install it with pip:
+`pip install --upgrade youtube-dl`
 
-### To install the required libraries: `pip install --user -r requirements.txt`
-
-### To run the code: python3 music_downloader.py
-
-### Put your favourite songs links in songs.txt and run the script :)
+## Put your favourite songs links in songs.txt and run the script!
 
 ## FUTURE UPDATES:
  - Control statement that verifies if songs.txt is empty
